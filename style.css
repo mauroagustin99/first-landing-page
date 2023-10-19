@@ -38,6 +38,7 @@ header ul{
     font-size: 18px;
 }
 
+
 /* HERO */
 
 .hero{
@@ -63,7 +64,7 @@ header ul{
     padding: 10px 0px;
 }
 
-.hero-button{
+.button{
     font-size: 18px;
     background-color: #3882F6;
     color: white;
@@ -72,10 +73,10 @@ header ul{
     cursor: pointer;
     padding: 7px 25px;
 }
-.hero-button:hover{
+.button:hover{
     background-color: #1E67D6;
 }
-.hero-button:active{
+.button:active{
     background-color: #0E4FAD;
 }
 
@@ -150,6 +151,48 @@ header ul{
 }
 
 .quote-sign{
-    align-self: flex-end;
+    max-width: 800px;
     font-weight: bold;
+    align-self: flex-end;
+}
+
+
+/* CALL TO ACTION */
+
+.call-to-action{
+    background-color: #3882F6;
+    padding: 40px;
+    margin: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    border-radius: 20px;
+    flex: 0;
+}
+
+.cta-left{
+    color: #F9FAF8;
+    flex: 0 0 500px;
+}
+
+.cta-title{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#cta{
+    border: 2px solid white;
+}
+
+
+/* FOOTER */
+
+footer{
+    display: flex;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    align-items: center;
+    justify-content: center;
+    padding: 35px;
+
 }
